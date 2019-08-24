@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+    
+    <title>Web Visualization Dashboard</title>
+</head>
+
+<!-- Nav Menu with Dropdown -->
+<nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">The Association of Global Lattitude With Weather</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Lattitude vs...
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="temperature.html">Temperature</a></li>
+                <li><a href="humidity.html">Humidity</a></li>
+                <li><a href="cloudiness.html">Cloudiness</a></li>
+                <li><a href="windspeed.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li><a href="comparisons.html">Comparisons</a></li>
+            <li><a href="https://github.com/JacobEThomas/API_Project/blob/master/API_Project/WeatherPy-Data.csv">Data</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class = "container" >
+        
+            <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                      <h2>Comparing All Visualizations</h2>
+                      <hr>
+                      <img src="resources/images/LatVWind_Speed.png" height="280" width="380" align="left" alt="first image" >
+                      <img src="resources/images/LatVHumidity.png" height="280" width="380" align="left" alt="first image" >
+                      <img src="resources/images/LatVCloudiness.png" height="280" width="380" align="left" alt="first image" >
+                      <img src="resources/images/LatVWind_Speed.png" height="280" width="380" align="left" alt="first image" >
+                      <p class="p1">This page displays all of the visualizations. </p>
+                      <p class="p1">Weather parameters were pulled in realtime usine the OpenWeatherAPI.</p>
+                       <p class= "p1">
+                      
+                      </p>
+                  
+                      <br>        
+                      </div>
+               
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                        <div class="panel-body">                                    
+                            <h2>Visualizations</h2>
+                            <hr>
+
+                            <div class="row" >
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="resources/images/LatVTemp.png" style="width:100%" alt=""></a></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="resources/images/LatVHumidity.png" style="width:100%" alt=""></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img class = "img img-responsive" src="resources/images/LatVCloudiness.png" style="width:100%" alt=""></a></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="windspeed.html"><img class = "img img-responsive" src="resources/images/LatVWind_Speed.png" style="width:100%" alt=""></a></div>
+                            </div>
+                                
+                        </div>
+                </div>     
+            </div>    
+    </div>
+</body>
+</html>
